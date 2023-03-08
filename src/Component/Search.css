@@ -9,7 +9,8 @@
 }
 .Search input{
     /* border: 2px solid blue; */
-    padding: 0.5rem 1.5rem;
+    width: 30%;
+    padding: 0.5rem;
     border-radius: .5rem;
     border: none;
 }

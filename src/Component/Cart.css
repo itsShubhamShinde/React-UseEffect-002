@@ -78,3 +78,14 @@
     margin-top: 60px;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 765px) {
+    .moviCard {
+        width: 50vw;
+        height: 55vh; 
+    }
+
+    .moviName h1 {
+        font-size: 1rem;
+    }
+}
