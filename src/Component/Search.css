@@ -1,20 +1,43 @@
 .Search{
     /* border: 2px solid red; */
-    height: 15vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #121721;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-.Search input{
+.name{
+ /* border: 2px solid yellow; */
+ height: 50%;
+ width: 100%;
+ font-size: 30px;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.inputDiv{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputDiv input{
     /* border: 2px solid blue; */
     width: 30%;
     padding: 0.5rem;
     border-radius: .5rem;
     border: none;
 }
-.Search button{
+.inputDiv button{
     padding: 0.5rem 1rem;
     border-radius: .5rem;
     margin-left: 10px;

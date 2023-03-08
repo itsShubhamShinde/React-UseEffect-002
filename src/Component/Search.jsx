@@ -5,6 +5,11 @@ const Search = ({ inputvalue, setInputvalue, value, setValue }) => {
 
     return (
         <div className='Search' >
+            <div className='name'> 
+                <h2>Movie Search App</h2>
+            </div>
+          
+            <div className='inputDiv'>
             <input type="text" onChange={(e) => {
                 setValue(e.currentTarget.value)
             }} />
@@ -13,6 +18,8 @@ const Search = ({ inputvalue, setInputvalue, value, setValue }) => {
                 setInputvalue(value)
             }
             }>Submit</button>
+
+            </div>
         </div>
     )
 }
