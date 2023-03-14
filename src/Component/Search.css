@@ -24,8 +24,8 @@
 .inputDiv{
     /* border: 2px solid yellow; */
     height: 50%;
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
 
